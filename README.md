@@ -132,21 +132,21 @@ zara-eda-project/
 
 ## 🛠️ How to Run
 
-```bash
 # Clone the repo
-git clone https://github.com/yourusername/zara-eda-project.git
-cd zara-eda-project
+git clone https://github.com/pasupuletiprasanna49/zara-sales-eda.git
+cd zara-sales-eda
 
 # Install dependencies
 pip install pandas matplotlib seaborn numpy
 
-# Run the analysis
-python zara_eda.py
+# Step 1 - Create the SQLite database
+python create_zara_database.py
 
-# Open the dashboard
-open zara_dashboard.html
-```
+# Step 2 - Run the full EDA analysis (generates all 10 charts)
+python zara_eda_analysis.py
 
+# Step 3 - Open the interactive dashboard
+start zara_dashboard.html
 ---
 
 ## 📸 Sample Visualizations
@@ -157,9 +157,9 @@ open zara_dashboard.html
 
 ## 👤 Author
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [Portfolio](https://yourportfolio.com)
+**Pasupuleti Prasanna**  
+📧 pasupuletiprasanna59@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/pasupuletiprasanna49)
 
 ---
 
